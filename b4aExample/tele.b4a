@@ -1,0 +1,63 @@
+﻿Build1=Default,b4a.example
+File1=instadb.db
+FileGroup1=Default Group
+Group=Default Group
+IconFile=
+Library1=core
+Library2=tele_vipv1
+Library3=json
+Library4=sql
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~
+Module1=Starter
+Module2=ac_login
+Module3=ac_listChat
+Module4=serv_t
+Module5=servconn
+Module6=ac_getChatHistory
+NumberOfFiles=1
+NumberOfLibraries=4
+NumberOfModules=6
+Version=9.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: TalegramB4a
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+'free libs
+'ostoreh0121@gmail.com
+'milad yarahmadi
+'telegram : pishnok
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	
+
+End Sub
+
+Sub Globals
+	
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	
+	StartActivity(ac_login)
+
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
